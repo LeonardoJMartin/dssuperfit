@@ -22,11 +22,13 @@ a, a:hover{
 
 header{
     background-color: var(--bg-color-red);
+    display: flex;
+    align-items: center;
 }
 
 nav{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 35px 0;
 }
 
@@ -36,13 +38,15 @@ nav{
 
 .container{
     max-width: 960px;
-    
+    width: 100%;
+    margin: 0 auto;
 }
 
 .container h1{
     color: var(--bg-color-white);
     font-size: 18px;
     font-weight: 700;
+    align-self: center;
 }
 
 .container a{
@@ -51,10 +55,11 @@ nav{
     font-weight: 700;
 }
 
-.container h2{
+#resume h2{
     color: var(--bg-color-white);
     font-size: 32px;
-    font-weight: 700;    
+    font-weight: 700; 
+    margin-bottom: 40px;    
 }
 
 #resume{
@@ -84,8 +89,96 @@ nav{
 
 #description{
     background-color: var(--bg-color-white);
+    margin: 20px 0;
+}
+
+.card-description{
+    background-color: var(--bg-color-blue);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card-description h3{
+    color:var(--bg-color-white);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#description h2{
+    color:var(--bg-color-red);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;  
+}
+
+.card-description p{
+    color:var(--bg-color-gray);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 footer{
     background-color:  var(--bg-color-black);
+    margin-top: 40px;
+    display: flex;
+    justify-content:center;
+}
+
+footer p{
+    color: var(--bg-color-gray);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer a{
+    color: var(--bg-color-gray);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer address{
+    color: var(--bg-color-gray);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.align-footer{
+    margin: 60px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.alinha{
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.copyright{
+    margin-top: 30px;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav img{
+    margin: 10px;
+}
+
+.alinha-txt a{
+    align-items: center;
+}
+.alinha-txt{
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.alinha-txt img{
+ margin-right: 10px;
 }
